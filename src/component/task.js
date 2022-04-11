@@ -33,37 +33,6 @@ const Task=()=>{
                   <div style={style}></div>
                 </Col>
               </Row>
-              {/* <Divider orientation="center">Task-2</Divider>
-              <Row gutter={24}>
-                 <Col xs={24} md={24}>
-                  <h1>EMPFORM</h1>
-                  <p>{JSON.stringify(empdata)}</p>
-                  <form onSubmit={handleFormSubmit}>
-                    <input
-                    type="text"
-                    placeholder="name"
-                    name="name"
-                    value={empform.emp_name}
-                    onChange={handlechange}
-                     />
-                      <input
-                    type="text"
-                    placeholder="age"
-                    name="age"
-                    value={empform.emp_age}
-                    onChange={handlechange}
-                     />
-                      <input
-                    type="text"
-                    placeholder="role"
-                    name="role"
-                    value={empform.emp_role}
-                    onChange={handlechange}
-                     />
-                    <button type="submit">submit</button>
-                  </form>
-                   </Col> 
-              </Row> */}
           </Content>
         </Layout>
       </>
